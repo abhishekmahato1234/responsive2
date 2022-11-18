@@ -12,45 +12,48 @@
 </head>
 
 <body>
-    <!-- NAV BAR -->
-    <nav class="fixed bg-white left-0 right-0 top-0">
-     <div class="hidden md:block">
-        <div class="flex mx-20">
-            <div class="flex-1">
-                <img src="img/logo.png" alt="">
-            </div>
-            <div class="flex-1 py-6">
-                <ul>
-                    <li class="inline mx-3"><a href="https://website2.mahatoabhishek.com.np/l">HOME</a></li>
-                    <li class="inline mx-3"><a href="https://website2.mahatoabhishek.com.np/rooms.html">OUR ROOMS</a></li>
-                    <li class="inline mx-3"><a href="https://website2.mahatoabhishek.com.np/menu.html">MENU</a></li>
-                    <li class="inline mx-3"><a href="https://website2.mahatoabhishek.com.np/facilities.html">FACILITIES</a></li>
-                    <li class="inline mx-3"><a href="https://website2.mahatoabhishek.com.np/contact.html">CONTACT & LOCATION</a></li>
-                </ul>
-            </div>
-        </div>
-        </div>
-        <!-- mobile bar -->
-        <div class="bg-[#DBDAD8] py-2 block md:hidden">
-            <div class="flex justify-between md:mx-20 mx-6">
-                <div>
-                    <a href="#"><img src="img/logo.png" alt=""></a>
+   <!-- NAV BAR -->
+    <nav class=" bg-white left-0 right-0 top-0">
+        <div class="hidden  lg:block">
+            <div class="flex mx-20">
+                <div class="flex-1">
+                    <img src="img/logo.png" alt="">
                 </div>
-                <p onclick="displaymenu()"><a href="#"><i class="fa-solid fa-bars fa-2x"></i></a></p>
-            </div>
-            <div>
-                <ul id="display-text" class="hidden p-4 text-white font-bold text-center ">
-                   <li class=""><a href="https://website2.mahatoabhishek.com.np/l">HOME</a></li>
-                    <li class=""><a href="https://website2.mahatoabhishek.com.np/rooms.html">OUR ROOMS</a></li>
-                    <li class=""><a href="https://website2.mahatoabhishek.com.np/menu.html">MENU</a></li>
-                    <li class=""><a href="https://website2.mahatoabhishek.com.np/facilities.html">FACILITIES</a></li>
-                    <li class=""><a href="https://website2.mahatoabhishek.com.np/contact.html">CONTACT & LOCATION</a></li>
-                </ul>
+                <div class="flex-1 py-6">
+                    <ul>
+                        <li class="inline mx-3"><a href="index.html">HOME</a></li>
+                        <li class="inline mx-3"><a href="rooms.html">OUR ROOMS</a></li>
+                        <li class="inline mx-3"><a href="menu.html">MENU</a></li>
+                        <li class="inline mx-3"><a href="facilities.html">FACILITIES</a></li>
+                        <li class="inline mx-3"><a href="contact.html">CONTACT & LOCATION</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-
+      
     </nav>
+
+      <!-- mobile bar -->
+      <div class="bg-[#DBDAD8] py-2 block lg:hidden z-50">
+        <div class="flex justify-between mx-6">
+            <div>
+                <a href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <p onclick="displaymenu()"><a href="#"><i class="fa-solid fa-bars fa-2x"></i></a></p>
+        </div>
+
+        <div>
+            <ul id="display-text" class="hidden p-4 text-white font-bold text-center ">
+                <li class=" mx-3"><a href="index.html">HOME</a></li>
+                <li class=" mx-3"><a href="rooms.html">OUR ROOMS</a></li>
+                <li class=" mx-3"><a href="menu.html">MENU</a></li>
+                <li class=" mx-3"><a href="facilities.html">FACILITIES</a></li>
+                <li class=" mx-3"><a href="contact.html">CONTACT & LOCATION</a></li>
+            </ul>
+        </div>
+    </div>
+
+
     <!-- NAV BAR END  -->
     <!-- hero section  -->
     <section class="mt-20">
