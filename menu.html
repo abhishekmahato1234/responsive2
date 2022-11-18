@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f0b6b9050a.js" crossorigin="anonymous"></script>
+    <title>MEGHAULI SERAI</title>
+
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="fixed bg-white left-0 right-0 top-0">
+        <div class="hidden md:block">
+           <div class="flex mx-20">
+               <div class="flex-1">
+                   <img src="img/logo.png" alt="">
+               </div>
+               <div class="flex-1 py-6">
+                   <ul>
+                       <li class="inline mx-3"><a href="index.html">HOME</a></li>
+                       <li class="inline mx-3"><a href="rooms.html">OUR ROOMS</a></li>
+                       <li class="inline mx-3"><a href="menu.html">MENU</a></li>
+                       <li class="inline mx-3"><a href="facilities.html">FACILITIES</a></li>
+                       <li class="inline mx-3"><a href="contact.html">CONTACT & LOCATION</a></li>
+                   </ul>
+               </div>
+           </div>
+           </div>
+           <!-- mobile bar -->
+           <div class="bg-[#DBDAD8] py-2 block md:hidden">
+               <div class="flex justify-between md:mx-20 mx-6">
+                   <div>
+                       <a href="#"><img src="img/logo.png" alt=""></a>
+                   </div>
+                   <p onclick="displaymenu()"><a href="#"><i class="fa-solid fa-bars fa-2x"></i></a></p>
+               </div>
+               <div>
+                   <ul id="display-text" class="hidden p-4 text-white font-bold text-center ">
+                       <li class=" mx-3"><a href="index.html">HOME</a></li>
+                       <li class=" mx-3"><a href="rooms.html">OUR ROOMS</a></li>
+                       <li class=" mx-3"><a href="menu.html">MENU</a></li>
+                       <li class=" mx-3"><a href="facilities.html">FACILITIES</a></li>
+                       <li class=" mx-3"><a href="contact.html">CONTACT & LOCATION</a></li>
+                   </ul>
+               </div>
+           </div>
+   
+   
+       </nav>
+    <!-- NAV BAR END  -->
+    <!-- menu hero section  -->
+    <!-- <section class="mt-16">
+        <div class="bg-[url('img/menu.png')] bg-cover">
+            <div class="text-white py-32 px-40 text-center">
+                <h1 class="text-6xl  mb-2 animate__animated animate__pulse text-cyan-400 italic">TRUE TASTE</h1>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- MENU  section  -->
+    <section class=" mt-28 mb-16">
+        <div class="text-center">
+            <h1 class="text-md italic">Standard food offer</h1>
+            <h1 class="text-3xl my-2">MAIN MENU</h1>
+            <p class="text-sm mx-20 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rerum aut eaque
+                tenetur cumque dolor a.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rerum aut
+                eaque tenetur cumque dolor a.</p>
+        </div>
+
+    </section>
+<section class="pb-20">
+
+    <div>
+        <div class="grid md:grid-cols-2 ">
+            <div class="bg-[#676639]">
+                <div class="my-8 mx-16 text-white">
+                    <h1 class="text-center text-3xl underline">COCKTAILS</h1>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Bacardi Mojito 
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-slate-300 italic mt-2">Drink combines Bacardi rum, mint, lime and sugar</p>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Bacardi Bramble 
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $8.40 )</h3>
+                    </div>
+                    <p class=" text-slate-300 italic mt-2">Bombay Sapphire gin,
+                        the finest blackberries and the lemons</p>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Cosmopolitan 
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-slate-300 italic mt-2">a tangy citrus blend of tequila, lime and a dash of oranger
+                    </p>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Piña
+                            Colada 
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-slate-300 italic mt-2">a tropical creamy blend of Bacardi rum, pineapple and
+                        coconut, balanced with lime</p>
+                </div>
+            </div>
+            <div>
+                <img class="object-cover w-full h-full" src="img/cocktail.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="grid md:grid-cols-2">
+            <div>
+                <img class="object-cover w-full h-full" src="img/pizza.jpg" alt="">
+            </div>
+            <div class="bg-stone-100">
+                <div class="my-8 mx-16 text-[#676639]">
+                    <h1 class="text-center text-3xl underline">pizza</h1>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Margherita Pizza
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-[#676639] italic mt-2">Tomato sauce, Cheese</p>
+                </div>
+                <div class=" mx-6 my-2">
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Meat Lovers Pizza
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $8.40 )</h3>
+                    </div>
+                    <p class=" text-[#676639] italic mt-2">Chicken, Ham, Beacon</p>
+                </div>
+                <div class=" mx-6 my-2">
+
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Greek Pizz
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-[#676639] italic mt-2">Olive, Gralic, Feta Ch
+                    </p>
+                </div>
+                <div class=" mx-6 my-2">
+
+                    <div class="flex justify-between">
+                        <h3 class="text-xl font-bold ">Calzon Pizza
+                        </h3>
+                        <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                    </div>
+                    <p class=" text-[#676639] italic mt-2">Spinach, Mushroom, Ham</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="grid md:grid-cols-2">
+                <div class="bg-[#676639]">
+                    <div class="my-8 mx-16 text-white">
+                        <h1 class="text-center text-3xl underline">MAIN DISH</h1>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">GRILLED FISH OF THE DAY 
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                        </div>
+                        <p class=" text-slate-300 italic mt-2">FISH ITEMS</p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">OCTOPUS CURRY  
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $8.40 )</h3>
+                        </div>
+                        <p class=" text-slate-300 italic mt-2">OCTOPUS MEAT ITEMS</p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">CHICKEN CURRY
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                        </div>
+                        <p class=" text-slate-300 italic mt-2">CHICKEN CURRY
+                        </p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">FISH FINGER
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                        </div>
+                        <p class=" text-slate-300 italic mt-2">Breaded fish sticks
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img class="object-cover w-full h-full" src="imG/maindishes.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <div class="grid md:grid-cols-2">
+                <div>
+                    <img class="object-cover w-full h-full" src="img/salads.jpg" alt="">
+                </div>
+                <div class="bg-stone-100">
+                    <div class="my-8 mx-16 text-[#676639]">
+                        <h1 class="text-center text-3xl underline">SALADS</h1>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">RUSSIAN SALADS
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                        </div>
+                        <p class=" text-[#676639] italic mt-2">Boiled carrots, boiled potatoes, peas and mayonnaise</p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">SHAMBA SALAD 
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $8.40 )</h3>
+                        </div>
+                        <p class=" text-[#676639] italic mt-2">Fresh mixed vegetables</p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">CHICKEN SALAD 
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $8.40 )</h3>
+                        </div>
+                        <p class=" text-[#676639] italic mt-2">Chicken fillet on fresh salad with mayonnaise
+                        </p>
+                    </div>
+                    <div class=" mx-6 my-2">
+                        <div class="flex justify-between">
+                            <h3 class="text-xl font-bold ">GREEK SALAD
+                            </h3>
+                            <h3 class="text-xl font-bold "> ( $6.40 )</h3>
+                        </div>
+                        <p class=" text-[#676639] italic mt-2">Cucumber, tomato and black olives with feta chees</p>
+                    </div>
+                </div>
+            </div>
+            
+    <div>
+
+
+    </section>
+
+
+
+
+    <!-- menu end  -->
+    <!-- footer  -->
+    <footer class="bg-[#A7905D]">
+        <div class="text-center py-4">
+            <div class="border-b border-black pb-4"><a class="mx-2" href="#">Privacy policy</a>
+                <a href="#">Accesibility</a>
+            </div>
+            <div class="mt-4">
+                <p><i class="fa-brands fa-facebook mr-2 ml-2 text-white cursor-pointer fa-2x"></i> | <i
+                        class="fa-brands fa-twitter mr-2 ml-2 text-white cursor-pointer fa-2x"></i> | <i
+                        class="fa-brands fa-instagram mr-2 ml-2 text-white cursor-pointer fa-2x"></i>
+                </p>
+            </div>
+            <div>
+                <h1 class="text-md  my-8 mx-4 font-bold">
+                    Meghauli Serai A Taj Safari Chitwan National Park</h1>
+                <img src="img/123.png" alt="">
+                <p class="">Meghauli Ward No. 1</p>
+                <p class="my-1">Narayani Nager Palika , 44207</p>
+                <p class="my-1">Tel: +977 9801301969 | 1 800-111 1825 </p>
+                <p class="my-1">Email: ms.frontoffice@tajhotels.com</p>
+                <div class="my-8">
+                    <input class="py-2 px-4" type="text" placeholder="Your Email"><button
+                        class="bg-yellow-500 rounded-2x py-2 px-4 ">Send</button>
+                </div>
+                <p class="pb-2 mx-4">&copy 2022 Meghauli Serai A Taj Safari Chitwan National Park | Made by <a
+                        href="#">TravelClick,</a> An Amadeus Company.</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer end  -->
+        <!-- menu bar script  -->
+        <script>
+            function displaymenu() {
+    
+                if (document.getElementById("display-text").style.display == "block") {
+                    document.getElementById("display-text").style.display = "none";
+                }
+                else {
+                    document.getElementById("display-text").style.display = "block";
+                }
+            }
+    
+    
+        </script>
+         <!-- menu bar script end  -->
+</body>
+
+</html>
